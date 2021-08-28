@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style - General*/
+body{
+	background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.headerGeneral{
+  
+  height: 100%;
+  width: 100%;
+  display: flex;
+ background-color:#64FFDA ;
+    
+    
+}
+
+.headerGeneral div img{
+  width: 90px;
+  height: 90px;
+  margin: 6px;
+  padding: 4px;
+  align-items: flex-start;
+  
+}
+.headerGeneral div input{
+  position: absolute;
+  border-radius: 8px;
+  width: 650px;
+  height: 30px;
+
+  margin: 10px;
+  top: 25px;
+  left: 300px;
+
+  transition: all 5s;
+  color: #444;
+  justify-content: center;
+  align-items: flex-start;
+  }
+  .headerGeneral div input:focus{
+    height: 150;
+    font-size: 24px;
+  }
+
+  .menu{
+    list-style: none;
+    padding: 0px;
+    background:rgba(0,0,0,.1);
+    width: 100%;
+    background-color:#64FFDA;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    background-color: #1F6566;
+    width: 150px;
+    height: 1;
+
+    
+    z-index:1;
+    filter:alpha(opacity=70);
+    -moz-opacity:.70;
+    opacity:.70;
+    
+  }
+  
+  .menu li{
+    display: inline-block;
+   
+  
+  }
+  
+  .menu li a:hover{
+    opacity: 100;
+  }
+  main{
+      padding: 0px;
+      
+  }
+  
+
+
+  /* Style - Page Contacto */
+
+.imagenBodyContacto {
+    background-image: url('imagenes/forest.jpg');
+    background-size: cover;
+  }
+
+
+  .form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
+  
+  .footer-interno{
+    text-align: center;
+    background-color:black;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 300px;
+    align-items: center;
+    color: blanchedalmond;
+    background-image: linear-gradient(#1F6566,black);
+
+  }
+  .imagenesFlex{
+  
+    background-position: center;
+	  background-size: cover;
+    
+  }
+  .imgIndexDiv{
+    width: 140px;
+    height: 140px;
+  }
+
+.mainNosotros{
+  background-image: url(imagenes/fondoIframe.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+ 
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+
+.divProductos div img{
+  background-size: cover;
+  text-align: center;
+
+}
+.imagenesFlex{
+ 
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+.gridTable{
+  width: 90%;
+  background-color: aquamarine;
+  margin: 50px auto;
+  height: auto;
+  box-shadow: 0 0 20px #333;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-start: repeat(50px);
+  border: solid 1px black;
+  
+
+
+}
+.tableTitle{
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border: solid 1px black;
+
+
+
+  background:coral;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+.tableHeader, .tableItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+
+}
+.tableHeader{
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  font-size: 1.4em;
+  background-color: lightskyblue;
+}
+.tableItem{
+  padding: 20px;
+  font-size: 1.2em;
+  border: solid 1px black;
+
+}
+
+.divProductos{
+ height: 100%;
+ width: 100%;
+  padding: 50px;
+  margin: 30px;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: space-around;
+  justify-content: space-around;
+  
+}
+.divProductos div{
+  width: auto;
+  height: 15%;
+}
+
+
+
+.imgControlar{
+ width: 100%;
+ height: 100%;
+ display: flex;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+}
+.imgControlar img{
+  width: 100%;
+  height: 100%;
+  margin: 4px;
+  padding: 6px;
+  flex: 0 0 100%;
+
+  width: 100%;
+  object-fit: cover;
+  scroll-snap-align: center;
+}
+
+.transicion:hover {
+  transition: 3s;
+  font-size: 3rem;
+}
+
+.mainServicios{
+  background-image: url(imagenes/forest.jpg);
+  
+}
+.mainProductos{
+  background-image: url(imagenes/forest.jpg);
+  background-size: cover;
+}
+.mainContacto{
+  background-image: url(imagenes/cat.jpg);
+  background-size: cover;
+}
