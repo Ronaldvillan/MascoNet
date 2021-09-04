@@ -12,10 +12,9 @@ body{
 }
 .headerGeneral{
   
-  height: 100%;
-  width: 100%;
-  display: flex;
+ 
  background-color:#64FFDA ;
+ padding: 1px;
     
     
 }
@@ -321,4 +320,8 @@ body{
 .mainContacto{
   background-image: url(imagenes/cat.jpg);
   background-size: cover;
+}
+.row{
+  margin: 1px;
+  padding: 10px;
 }

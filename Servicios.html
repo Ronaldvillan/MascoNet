@@ -7,128 +7,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MASCONET</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
 </head>
 
 <body>
     <header class="headerGeneral">
-        <div class="logo">
-            <img src="imagenes/logoMN.png" alt="">
-        </div>
-        <div>
-            <input class="buscador" type="text" name="search" placeholder="Buscar producto..." autocomplete="off">
-        </div>
-    </header>
+        <!-- INICIO DE LA NAVEGACION - ES GENERICA PARA TODAS LAS PAGINAS -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-green">
+                    <div class="container px-4 px-lg-5">
+                        <a class="navbar-brand" href="#!"><img src="imagenes/logoMN.png" alt=""></a>
+        
+        
+        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation"><span
+                                class="navbar-toggler-icon"></span></button>
+        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">INICIO</a></li>
+                                <li class="nav-item"><a class="nav-link" href="Nosotros.html">NOSOTROS</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">TIENDA</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="Productos.html">All Products</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider" />
+                                        </li>
+                                        <li><a class="dropdown-item" href="Productos.html">Popular Items</a></li>
+                                        <li><a class="dropdown-item" href="Servicios.html">New Arrivals</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--
+                            <form class="form-inline d-flex">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                
+                              </form>
+                              -->
+        
+                            <form class="d-flex">
+                                <button class="btn btn-outline-dark" type="submit">
+                                    <i class="bi-cart-fill me-1"></i>
+                                    Cart
+                                    <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                                </button>
+                            </form>
+        
+        
+        
+                        </div>
+                    </div>
+                </nav>
+        
+            </header>
+            <!-- FIN DE LA NAVEGACION, ES GENERICA PARA TODAS LAS PAGINAS -->
 
-
-    <main class="mainServicios">
-        <nav class="menu">
-            <ul >
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Productos.html">Productos</a></li>
-                <li><a href="Servicios.html">Servicios</a></li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <main class="mainProductos">
+        
         <hr>
-        <div class="divProductos">
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto3.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto4.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto5.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto6.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-
-            <div class="productoInterno"><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div class="productoInterno"><img src="imagenes/fotoProducto3.jpg" alt=""></div>
-            <div class="productoInterno"><img src="imagenes/fotoProducto4.jpg" alt=""></div>
-
-            <div class="productoInterno"><img src="imagenes/fotoProducto5.jpg" alt=""></div>
-            <div class="productoInterno"><img src="imagenes/fotoProducto6.jpg" alt=""></div>
-            <div class="productoInterno"><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-
-            <div class="productoInterno"><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div class="productoInterno"><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div class="productoInterno"><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto3.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto4.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto5.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto6.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto3.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto4.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto5.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto6.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto3.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto4.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto5.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto6.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto3.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto4.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto5.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto6.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto3.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto4.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto5.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto6.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto3.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto4.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto5.jpg" alt=""></div>
-
-            <div><img src="imagenes/fotoProducto6.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProductoOne.jpg" alt=""></div>
-            <div><img src="imagenes/fotoProducto2.jpg" alt=""></div>
 
 
+        
+        <div class="gridTable">
+            <div class="tableTitle">LISTA DE PRODUCTOS</div>
+            <div class="tableHeader">PRODUCTO</div>
+            <div class="tableHeader">MARCA</div>
+            <div class="tableHeader">DESCRIPCION</div>
+            <div class="tableHeader">PRECIO</div>
+
+            <div class="tableItem">Comida para Perros</div>
+            <div class="tableItem">ROYAL CANIN</div>
+            <div class="tableItem">Alimento para gatos adultos con peso ideal, actividad física moderada y que
+                poseen acceso al
+                exterior. De 1 a 7 años de edad.</div>
+            <div class="tableItem">$300</div>
+
+            <div class="tableItem">Comida para Perros</div>
+            <div class="tableItem">ROYAL CANIN</div>
+            <div class="tableItem">Alimento para gatos adultos con peso ideal, actividad física moderada y que
+                poseen acceso al
+                exterior. De 1 a 7 años de edad.</div>
+            <div class="tableItem">$300</div>
+
+            <div class="tableItem">Comida para Perros</div>
+            <div class="tableItem">ROYAL CANIN</div>
+            <div class="tableItem">Alimento para gatos adultos con peso ideal, actividad física moderada y que
+                poseen acceso al
+                exterior. De 1 a 7 años de edad.</div>
+            <div class="tableItem">$300</div>
+
+            <div class="tableItem">Comida para Perros</div>
+            <div class="tableItem">ROYAL CANIN</div>
+            <div class="tableItem">Alimento para gatos adultos con peso ideal, actividad física moderada y que
+                poseen acceso al
+                exterior. De 1 a 7 años de edad.</div>
+            <div class="tableItem">$300</div>
+
+            <div class="tableItem">Comida para Perros</div>
+            <div class="tableItem">ROYAL CANIN</div>
+            <div class="tableItem">Alimento para gatos adultos con peso ideal, actividad física moderada y que
+                poseen acceso al
+                exterior. De 1 a 7 años de edad.</div>
+            <div class="tableItem">$300</div>
+
+            <div class="tableItem">Comida para Perros</div>
+            <div class="tableItem">ROYAL CANIN</div>
+            <div class="tableItem">Alimento para gatos adultos con peso ideal, actividad física moderada y que
+                poseen acceso al
+                exterior. De 1 a 7 años de edad.</div>
+            <div class="tableItem">$300</div>
+
+            <div class="tableItem">Comida para Perros</div>
+            <div class="tableItem">ROYAL CANIN</div>
+            <div class="tableItem">Alimento para gatos adultos con peso ideal, actividad física moderada y que
+                poseen acceso al
+                exterior. De 1 a 7 años de edad.</div>
+            <div class="tableItem">$300</div>
 
 
         </div>
 
-
-
+        <br><br>
     </main>
-
     <footer class="footer-interno">
-
         <h1 class="Transicion">© Masconet 2021</h1>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>
