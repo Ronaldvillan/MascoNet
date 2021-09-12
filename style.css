@@ -13,8 +13,11 @@ body{
 .headerGeneral{
   
  
- background-color:#64FFDA ;
+ /*background-color:#64FFDA ;*/
+ background-color:#64FFDA;
  padding: 1px;
+ height: 115px;
+ 
     
     
 }
@@ -89,6 +92,7 @@ body{
   }
   main{
       padding: 0px;
+      background-color: white;
       
   }
   
@@ -184,7 +188,7 @@ body{
   }
 
 .mainNosotros{
-  background-image: url(imagenes/fondoIframe.jpg);
+  /*background-image: url(imagenes/fondoIframe.jpg);*/
   background-size: cover;
   text-align: center;
   padding: 0px;
@@ -310,11 +314,11 @@ body{
 }
 
 .mainServicios{
-  background-image: url(imagenes/forest.jpg);
+  /*background-image: url(imagenes/forest.jpg);*/
   
 }
 .mainProductos{
-  background-image: url(imagenes/forest.jpg);
+ /* background-image: url(imagenes/forest.jpg);*/
   background-size: cover;
 }
 .mainContacto{
@@ -324,4 +328,18 @@ body{
 .row{
   margin: 1px;
   padding: 10px;
+}
+
+.nav-item{
+  
+  width: 100px;
+  height: 35px;
+  text-align: left;
+  text-align: center;
+  border:1px solid;
+  
+  margin: 2px;
+ 
+  
+  
 }
